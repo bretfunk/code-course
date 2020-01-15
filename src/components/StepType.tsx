@@ -13,13 +13,13 @@ export const Step: React.FC = () => {
         <div className="row justify-content-between">
           <select
             value={selected}
-            onChange={(ev: React.ChangeEvent<HTMLSelectElement>): void =>
-              setSelected(ev.target.value)
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>): void =>
+              setSelected(e.target.value)
             }
           >
             <option value=""></option>
             <option value="text">text</option>
-            <option value="code question">code question</option>
+            <option value="question">question and answer</option>
             <option value="submit">submit button</option>
           </select>
 

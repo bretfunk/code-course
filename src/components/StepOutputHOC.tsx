@@ -9,7 +9,7 @@ const hoc = (selected: string) => {
     case "text": {
       return <TextArea />;
     }
-    case "code question": {
+    case "question": {
       return <CodeQuestion />;
     }
     default:
