@@ -2,7 +2,7 @@ import React from "react";
 import { StepsOutput } from "./StepsOutput";
 
 // make StepsOutput take the array of steps and output the correct layout
-export const LessonOutput: React.FC = () => {
+export const Lesson: React.FC = () => {
   // these steps are dummy steps until the backend is build
   const lesson = {
     name: "TS",
